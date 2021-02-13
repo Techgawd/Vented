@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-color:white;
+}
+
+.Nav {
+  /* background-color: #a45ee5; */
+  background-color: #9F3F36;
+  height: 200px;
+}
+
+.Form {
+  height: 640px;
+}
+
+.Footer {
+  height: 310px;
+  background-color: whitesmoke;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  background-color: #9F3F36;
+}
+
+.logo {
+  height: 300px;
+}
+
+.vented {
+  margin-top: -140px;
+}
+
+textarea {
+  width: 30%;
+  height: 150px;
+  font-size: 28px;
+}
+
+.ventHere {
+  margin-top: 55px;
+}
