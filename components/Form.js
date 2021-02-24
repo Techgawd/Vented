@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Button } from 'reactstrap';
 import ventHere from '../images/ventHere.png';
+
 
 function Form() {
     return (
@@ -15,7 +15,8 @@ function Form() {
                 <label></label>
                 <textarea> </textarea>
             </p>
-            <Button color="primary">primary</Button>{' '}
+            <a href="www.google.com" class="button5">RELEASE</a>
+
         </div>
     );
 }

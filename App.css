@@ -5,29 +5,49 @@
 
 .Nav {
   /* background-color: #a45ee5; */
-  background-color: #9F3F36;
-  height: 200px;
+  /* background-color: #9F3F36; */
+  /* background-color: #72E8A5; */
+  background-color: #6C3DB3;
+  height: 160px;
 }
 
 .Form {
-  height: 640px;
+  height: 460px;
+}
+
+.Vents {
+  height: 710px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  background-color:#6C3DB3;
+  /* background-color: #FFFB89; */
+  
 }
 
 .Footer {
-  height: 310px;
+  height: 300px;
   background-color: whitesmoke;
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  background-color: #9F3F36;
 }
 
 .logo {
-  height: 300px;
+  height: 200px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .vented {
-  margin-top: -140px;
+  margin-top: -120px;
+  width: 400px;
+}
+
+.vents {
+  width: 30%;
+  background-color: #FFFB89;
+  margin: 50px;
 }
 
 textarea {
@@ -38,4 +58,44 @@ textarea {
 
 .ventHere {
   margin-top: 55px;
+  width: 300px;
 }
+
+a.button5 {
+  display:inline-block;
+  padding:0.46em 1.6em;
+  border:0.1em solid #000000;
+  margin:0 0.2em 0.2em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#000000;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background-color:orange;
+  text-align:center;
+  transition: all 0.15s;
+}
+
+  a.button5:hover{
+    color: antiquewhite;
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    border-color: #FFFB89;
+  }
+
+  .ventBox {
+    background-color: #FFFB89;
+    margin: 30px 0px 30px 0px;
+    width: 100%;
+  }
+
+  .card{
+    display: inline-block;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 700px;
+    padding : 20px;
+    margin: 40px 20px 20px 20px;
+    background-color: white;
+  }
